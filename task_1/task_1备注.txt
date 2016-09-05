@@ -1,0 +1,12 @@
+1. input : for_each_item.rb 依赖(gene_ontology.rb gene_ontology_edit.obo)
+	 output: 三个未去冗余的GO集合
+	 				 res_bp.txt
+	 				 res_mf.txt
+	 				 res_cc.txt
+
+2. 去除冗余：
+		input : rem_dup.py (res_bp.txt res_mf.txt res_cc.txt)
+		output: out_res_bp.txt out_res_mf.txt out_res_cc.txt
+		
+另外：res.txt和res_out.txt是未区分三个类别的整体结果
+						

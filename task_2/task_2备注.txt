@@ -1,0 +1,14 @@
+1. input:	read_file.py + sh文件
+	 在linux服务器上跑出
+	 output: evidence_code.txt
+	 全是可信度高的蛋白(冗余)
+
+2. input:	remove_res_duplicate.py + evidence_code.txt
+	 norm_id.txt (改过名字)
+
+3. input: search.py + norm_id.txt + data_30.fasta
+	 temp.out
+
+4. evidence_code.txt + extract_gene_ontology.py
+	 三个函数 最后得到id_map_go_norm.txt 得到所有蛋白和go项的映射
+4. 备注： gaf_example.txt是备注gaf格式的文件
