@@ -1,3 +1,9 @@
 之前id_go_norm.txt分成三类的时候 以第一列go为基准分类的
 但是后来发现 一个pro是可以分到多个go类别里面的
 所以重写了task_5来做
+
+task_5得到1个中间结果：go_protein_full.txt 保存着所有go和protein的配对。
+还得到3个最终结果： xx_to_pro_dict.txt 其中 bp类 3928个GO
+                                        cc类 719个GO
+                                        mf类 1323个GO
+这三个结果是 未和parent节点做连接的 也就是task_6要做连接

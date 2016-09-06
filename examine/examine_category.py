@@ -24,4 +24,8 @@ def examine(go_30, exam_file_name):
 
 if __name__ == "__main__":
     bp_30 = get_pro_go_dict("biological_process.txt")
-    examine(bp_30, "go_bp_dict.txt")
+    examine(bp_30, "BP_FULL_PRO.txt")
+    mf_30 = get_pro_go_dict("molecular_function.txt")
+    examine(mf_30, "MF_FULL_PRO.txt")
+    cc_30 = get_pro_go_dict("cellular_component.txt")
+    examine(cc_30, "CC_FULL_PRO.txt")
